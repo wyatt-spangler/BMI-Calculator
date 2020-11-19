@@ -44,9 +44,9 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <TextBlock x:Name="xYourBMIResults" Grid.ColumnSpan="5" Grid.Column="3" HorizontalAlignment="Left" Height="82" Margin="60.4,10.2,0,0" Grid.Row="2" Grid.RowSpan="2" TextWrapping="Wrap" Text="BMI Results" VerticalAlignment="Top" Width="414" FontSize="60" FontWeight="Bold"/>
-        <TextBlock x:Name="xBMIMessage" Grid.ColumnSpan="2" Grid.Column="3" HorizontalAlignment="Left" Height="52" Margin="60.4,0,0,0" Grid.Row="5" TextWrapping="Wrap" Text="Message:" VerticalAlignment="Top" Width="412" FontWeight="Bold" FontSize="16"/>
-        <Button x:Name="SubmitBtn" Content="Submit" Grid.Column="1" HorizontalAlignment="Left" Height="24" Margin="10.2,41,0,0" Grid.Row="6" VerticalAlignment="Top" Width="101"/>
+        <TextBlock x:Name="xYourBMIResults" Grid.ColumnSpan="5" Grid.Column="3" HorizontalAlignment="Left" Height="82" Margin="60.4,10.2,0,0" Grid.Row="2" Grid.RowSpan="2" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="414" FontSize="60" FontWeight="Bold"/>
+        <TextBlock x:Name="xBMIMessage" Grid.ColumnSpan="4" Grid.Column="3" HorizontalAlignment="Left" Height="104" Margin="60.4,0,0,0" Grid.Row="4" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="367" FontWeight="Bold" FontSize="16" Grid.RowSpan="2"/>
+        <Button x:Name="SubmitBtn" Content="Submit" Grid.Column="1" HorizontalAlignment="Left" Height="24" Margin="10.2,41,0,0" Grid.Row="6" VerticalAlignment="Top" Width="101" Click="SubmitBtn_Click"/>
         <Button x:Name="ClearBtn" Content="Clear" Grid.Column="2" HorizontalAlignment="Left" Height="24" Margin="9.6,41,0,0" Grid.Row="6" VerticalAlignment="Top" Width="103" Click="ClearBtn_Click"/>
         <Button x:Name="ImportBtn" Content="Import" Grid.Column="4" HorizontalAlignment="Left" Height="24" Margin="10.4,41,0,0" Grid.Row="6" VerticalAlignment="Top" Width="102"/>
         <Button x:Name="ExitBtn" Content="Exit" Grid.Column="6" HorizontalAlignment="Left" Height="24" Margin="9.6,41,0,0" Grid.Row="6" VerticalAlignment="Top" Width="103" Click="ExitBtn_Click"/>
@@ -56,5 +56,6 @@
         <TextBox x:Name="xPhoneBox" Grid.Column="2" HorizontalAlignment="Left" Height="31" Margin="10.169,10,0,0" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="102"/>
         <TextBox x:Name="xHeightInchesBox" Grid.Column="2" HorizontalAlignment="Left" Height="32" Margin="10.169,10,0,0" Grid.Row="4" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="103"/>
         <TextBox x:Name="xWeightLbsBox" Grid.Column="2" HorizontalAlignment="Left" Height="32" Margin="10.169,10,0,0" Grid.Row="5" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="102"/>
+
     </Grid>
 </Window>
